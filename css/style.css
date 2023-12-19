@@ -315,11 +315,13 @@ header .logo img {
 
 /*右部按钮*/
 header .head-btn {
-  float: right;
+  position: absolute;
   line-height: -20px;
-  margin-top: 15px;
-  margin-right: 10px;
+  right: 10px;
+  /* margin-top: 15px; */
+  /* margin-right: 10px; */
   font-size: 14px;
+  z-index: 100;
 }
 
 
