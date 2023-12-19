@@ -60,7 +60,7 @@ ul {
 
 .dh a:hover {
     color: #FFF;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     background: #459df5
 }
@@ -74,7 +74,8 @@ ul {
 }
 
 .sousuo {
-    padding: 35px 0
+    padding: 35px 0;
+    margin-top: 10px
 }
 
 .search {
@@ -90,7 +91,8 @@ ul {
     display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid #e6e6e6
+    border: 1px solid #e6e6e6;
+    margin-top: 20px;
 }
 
 .link-rec {
@@ -588,7 +590,7 @@ header .animated2 .bottom {
 
 @media (min-width:992px) {
     .search {
-        width: 650px
+        width: 650px;
     }
 
     .search-engine {
@@ -679,13 +681,105 @@ header .animated2 .bottom {
     }
 }
 
+
 @media (min-width:768px) {
     .sousuo {
         padding: 10px 0 50px 0;
-        margin-top: 0
+        margin-top: 0px
     }
 
     .search-clear {
         right: 95px
+    }
+
+    .search {
+        width: 650px;
+    }
+
+    .search-engine {
+        width: 650px
+    }
+
+    .search-engine-list li {
+        width: 112px;
+        margin: 0 15px 15px 0
+    }
+
+    .search-hot-text {
+        width: 559px;
+        margin-left: 10px
+    }
+
+    .dh {
+        padding: 0px 20px;
+        margin-bottom: 20px
+    }
+
+    header {
+        height: 60px;
+        border-bottom: 1px solid #e8e8e8
+    }
+
+    header .main {
+        padding: 0 24px
+    }
+
+    header .logo {
+        float: left;
+        font-size: 27px;
+        margin: 0;
+        font-weight: 400;
+        border: none
+    }
+
+    header .logo a {
+        display: block;
+        line-height: 59px;
+        color: #484848;
+        font-weight: 400
+    }
+
+    header .logo img {
+        width: 40px;
+        vertical-align: -10px
+    }
+
+    header .nav {
+        float: left;
+        margin-left: 25px;
+        padding-top: 0px;
+        height: 100%;
+        display: block;
+        overflow: hidden;
+        position: static;
+        width: auto;
+        box-shadow: none
+    }
+
+    header .nav li {
+        float: left;
+        font-size: 16px
+    }
+
+    header .nav a {
+        display: block;
+        line-height: 59px;
+        color: #959595;
+        padding: 0 18px;
+        border-bottom: 1px solid #e8e8e8
+    }
+
+    header .nav a:hover {
+        border-color: #459df5;
+        color: #459df5
+    }
+
+    .content-box {
+        padding: 0 10px;
+        padding-top: 61px
+    }
+
+    .main-index {
+        padding-top: 60px
     }
 }
