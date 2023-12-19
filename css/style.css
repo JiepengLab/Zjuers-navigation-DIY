@@ -1,82 +1,7 @@
-ul {
-  padding: 0;
-}
-
-li {
-  list-style: none;
-}
-
-a:hover,
-a:active,
-a:focus {
-  text-decoration: none;
-}
-
 body {
   background: #f2f2f2;
   overflow-x: hidden;
   overflow-y: auto;
-}
-
-i.icon,
-i.fa {
-  margin-right: 6px
-}
-
-.col,
-.col-xs-1,
-.col-xs-2,
-.col-xs-3,
-.col-xs-4,
-.col-xs-5,
-.col-xs-6,
-.col-xs-7,
-.col-xs-8,
-.col-xs-9,
-.col-xs-10,
-.col-xs-11,
-.col-xs-12,
-.col-sm-1,
-.col-sm-2,
-.col-sm-3,
-.col-sm-4,
-.col-sm-5,
-.col-sm-6,
-.col-sm-7,
-.col-sm-8,
-.col-sm-9,
-.col-sm-10,
-.col-sm-11,
-.col-sm-12,
-.col-md-1,
-.col-md-2,
-.col-md-3,
-.col-md-4,
-.col-md-5,
-.col-md-6,
-.col-md-7,
-.col-md-8,
-.col-md-9,
-.col-md-10,
-.col-md-11,
-.col-md-12,
-.col-lg-1,
-.col-lg-2,
-.col-lg-3,
-.col-lg-4,
-.col-lg-5,
-.col-lg-6,
-.col-lg-7,
-.col-lg-8,
-.col-lg-9,
-.col-lg-10,
-.col-lg-11,
-.col-lg-12 {
-  padding: 0px 5px;
-}
-
-body {
-  font-family: "LXGW WenKai", sans-serif;
 }
 
 /*自定义模式启动*/
@@ -169,150 +94,6 @@ body {
   top: 0;
 }
 
-/*头部logo*/
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 100;
-  height: 50px;
-  background: #FFF;
-}
-
-header .logo {
-  font-size: 20px;
-  margin: 0;
-  font-weight: 400;
-  text-align: center;
-  position: relative;
-  z-index: 99;
-  border-bottom: 1px solid #e8e8e8;
-  background: #FFF;
-}
-
-header .logo a {
-  line-height: 50px;
-  color: #484848;
-  font-weight: bold;
-}
-
-header .logo img {
-  width: 25px;
-}
-
-header .logo img {
-  animation: donghua 1.7s linear infinite;
-  -webkit-animation: donghua 1.7s linear infinite;
-  -moz-animation: donghua 1.7s linear infinite;
-  -o-animation: donghua 1.7s linear infinite;
-  -ms-animation: donghua 1.7s linear infinite;
-}
-
-@keyframes donghua {
-  0% {
-    transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -moz-transform: rotate(0deg);
-    /* Firefox */
-    -webkit-transform: rotate(0deg);
-    /* Safari 和 Chrome */
-    -o-transform: rotate(0deg);
-    /* Opera */
-  }
-
-  100% {
-    transform: rotate(-360deg);
-    -ms-transform: rotate(-360deg);
-    /* IE 9 */
-    -moz-transform: rotate(-360deg);
-    /* Firefox */
-    -webkit-transform: rotate(-360deg);
-    /* Safari 和 Chrome */
-    -o-transform: rotate(-360deg);
-    /* Opera */
-  }
-}
-
-@-moz-keyframes donghua {
-  0% {
-    transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -moz-transform: rotate(0deg);
-    /* Firefox */
-    -webkit-transform: rotate(0deg);
-    /* Safari 和 Chrome */
-    -o-transform: rotate(0deg);
-    /* Opera */
-  }
-
-  100% {
-    transform: rotate(-360deg);
-    -ms-transform: rotate(-360deg);
-    /* IE 9 */
-    -moz-transform: rotate(-360deg);
-    /* Firefox */
-    -webkit-transform: rotate(-360deg);
-    /* Safari 和 Chrome */
-    -o-transform: rotate(-360deg);
-    /* Opera */
-  }
-}
-
-@-ms-keyframes donghua {
-  0% {
-    transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -moz-transform: rotate(0deg);
-    /* Firefox */
-    -webkit-transform: rotate(0deg);
-    /* Safari 和 Chrome */
-    -o-transform: rotate(0deg);
-    /* Opera */
-  }
-
-  100% {
-    transform: rotate(-360deg);
-    -ms-transform: rotate(-360deg);
-    /* IE 9 */
-    -moz-transform: rotate(-360deg);
-    /* Firefox */
-    -webkit-transform: rotate(-360deg);
-    /* Safari 和 Chrome */
-    -o-transform: rotate(-360deg);
-    /* Opera */
-  }
-}
-
-@-o-keyframes donghua {
-  0% {
-    transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -moz-transform: rotate(0deg);
-    /* Firefox */
-    -webkit-transform: rotate(0deg);
-    /* Safari 和 Chrome */
-    -o-transform: rotate(0deg);
-    /* Opera */
-  }
-
-  100% {
-    transform: rotate(-360deg);
-    -ms-transform: rotate(-360deg);
-    /* IE 9 */
-    -moz-transform: rotate(-360deg);
-    /* Firefox */
-    -webkit-transform: rotate(-360deg);
-    /* Safari 和 Chrome */
-    -o-transform: rotate(-360deg);
-    /* Opera */
-  }
-}
-
 /*右部按钮*/
 header .head-btn {
   position: absolute;
@@ -335,10 +116,10 @@ header .head-btn {
 }
 
 /*搜索区域*/
-.sousuo {
+/* .sousuo {
   padding: 30px 10px;
   margin-top: 60px;
-}
+} */
 
 #Select {
   width: 85%;
@@ -440,7 +221,11 @@ header .head-btn {
 
 /*---------------首页内容区域------------------*/
 .linkList-item .col-md-4 {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  margin: 0px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-bottom: 10px !important;
 }
 
 .link-list-tit {
@@ -448,7 +233,7 @@ header .head-btn {
   font-weight: 400;
   color: #808080;
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .edit-category {
@@ -458,9 +243,9 @@ header .head-btn {
 .link-list-a {
   background: rgba(255, 255, 255, 1);
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 0px !important;
   text-align: center;
-  line-height: 45px;
+  line-height: 45px !important;
   border-radius: 2px;
   font-size: 13px;
   color: #808080;
@@ -483,46 +268,6 @@ header .head-btn {
 /*以上链接列表的样式为通用样式*/
 .bianji {
   display: none;
-}
-
-/*回到顶部*/
-#get-top {
-  width: 40px;
-  height: 40px;
-  background: #03b8cf;
-  color: #FFF;
-  position: fixed;
-  right: 15px;
-  bottom: 55px;
-  line-height: 30px;
-  text-align: center;
-  font-size: 30px;
-  cursor: pointer;
-  display: none;
-  z-index: 100;
-}
-
-#get-top i {
-  margin: 0;
-  font-size: 20px;
-}
-
-
-
-/*页脚*/
-.footer {
-  border-top: 1px solid #d0d0d0;
-  background-color: #e8e8e8;
-  text-align: center;
-  font-size: 14px;
-  color: #5d5d5d;
-  padding: 10px 10px 10px 10px;
-  text-align: center;
-  font-size: 14px;
-  bottom: 0px;
-  position: relative;
-  z-index: 0;
-  width: 100%;
 }
 
 .cnzz_stat_icon_1261855216 {

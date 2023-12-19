@@ -4,9 +4,9 @@ body {
 }
 
 
-* {
+/* * {
     font-family: "LXGW WenKai", sans-serif;
-}
+} */
 
 body {
     background: #f2f2f2;
@@ -75,6 +75,8 @@ ul {
 
 .sousuo {
     padding: 35px 0;
+    padding-top: 60px !important;
+    padding-bottom: 0px !important;
     margin-top: 10px
 }
 
@@ -432,7 +434,7 @@ header .showNav {
 header .nav a {
     display: block;
     line-height: 40px;
-    font-size: 16px;
+    font-size: 30px;
     color: #959595;
     padding: 0 25px;
     border-bottom: 1px solid #f5f5f5
@@ -681,10 +683,9 @@ header .animated2 .bottom {
     }
 }
 
-
 @media (min-width:768px) {
     .sousuo {
-        padding: 10px 0 50px 0;
+        padding: 50px 0 50px 0 !important;
         margin-top: 0px
     }
 
@@ -726,7 +727,7 @@ header .animated2 .bottom {
 
     header .logo {
         float: left;
-        font-size: 27px;
+        font-size: 25px !important;
         margin: 0;
         font-weight: 400;
         border: none
@@ -776,6 +777,7 @@ header .animated2 .bottom {
 
     .content-box {
         padding: 0 10px;
+        margin: 0px !important;
         padding-top: 61px
     }
 
